@@ -17,7 +17,7 @@ start_link() ->
 
 init([]) ->
 
-Declarations2 = application:get_env(email_single, publish_declarations),
+Declarations2 = application:get_env(pipeline, publish_declarations),
         {_, Dcls2} = Declarations2,
 
 
